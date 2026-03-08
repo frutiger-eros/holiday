@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Holiday Mariwether</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-wrapper">
+    <div>section with buttons to load different style sheets tes test</div>
+    <!--nav bar-->
+    <div id="nav-wrapper">
+    <div id="nav-top">  
+    <div id="title">
+      <h1>Tomb of Annihilation</h1>
+    </div>
+      <div id="bubbles" class="container">
+      <div id="initiative-bubble" class="bubble-item">
+        <h2 class="mini-title">INITIATIVE</h2>
+        <span class="init-ac">+2</span>
+      </div>
+      <div id="hp-bubble" class="bubble-item">
+      <div id="hp-bubble-container" class="container"><!--fixed placement?-->
+        <h2 class="mini-title">HP</h2>
+        <div id="hp"><span id="current">93</span><span id="slash">/</span><span id="max">93</span></div>
+        <div id="temp-hp">&nbsp;</div>
+        <h2 class="mini-title">temp hp</h2>
+        
+      </div>
+        
+      </div>  
+      <div id="ac-bubble" class="bubble-item">
+        <h2 class="mini-title">AC</h2>
+        <span class="init-ac">15</span>
+      </div>
+      </div>
+      <div id="hit dice">hit dice: 10d8</div>
+      <div id="death saves">death saves counter with checkboxes</div>
+      </div>
+      <div id="nav-links" class="container">
+        <ul id="jump-links">  
+          <li>
+            basics
+          </li>
+          <li>
+            status
+          </li>
+          <li>
+            ability scores
+          </li>
+          <li>
+            skills
+          </li>
+          <li>
+            actions
+          </li>
+          <li>
+            magic
+          </li>
+          <li>
+            inventory
+          </li>
+        </ul>
+      </div>  
+    </div><!--end nav-->
+    <!--Body of page-->
+    <div class="container" id="subnav">
+      <div class="container" id="sidebar">
+        <div id="flex-item-1" class="sidebar-item">
+          <div id="basics" class="container">
+            <h2>Holiday Mariwether</h2>
+              <img id="pfp" class="basics-item" src="#" width="150px"   height="150px" />
+              <ul id="basics-list" class="basics-item">
+                <li>race</li>
+               <li>class</li>
+                <li>alignment</li>
+              </ul>
+              <p><strong>Status:</strong></p>
+          </div>
+        </div>
+        <div id="flex-item-2" class="sidebar-item">
+          <div id="conditions" class="container">
+            <h2>Conditions</h2>
+            <ul id="conditions-list">
+              <li>blinded</li>
+              <li>charmed</li>
+              <li>deafened</li>
+              <li>frightened</li>
+              <li>grappled</li>
+              <li>incapacitated</li>
+              <li>invisible</li>
+              <li>paralyzed</li>
+              <li>petrified</li>
+              <li>poisoned</li>
+              <li>prone</li>
+              <li>restrained</li>
+              <li>stunned</li>
+              <li>unconscious</li>
+          </ul>
+          <ol id="exhaustion-list">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+          </ol>
+          </div>
+        </div>
+        <div id="flex-item-3" class="sidebar-item">
+          <div id="defenses-proficiencies">
+            <h2>Defenses</h2>
+            <h2>Proficiencies</h2>
+          </div>
+        </div>
+        <div id="flex-item-4" class="sidebar-item">
+          <div id="skills">
+            <h2>Skills</h2>
+            <table id="skills-table">
+              <tr><!--hide this row-->
+                <th>o</th>
+                <th>+#</th>
+                <th>skill name</th>
+              </tr>
+              <tr>
+                <td>o</td>
+                <td>+2</td>
+                <td>acrobatics</td>
+              </tr>
+            </table>
+            <p>Proficiency bonus <span class="important-number">+4</span></p>
+          </div>
+        </div>
+      </div>
+      <!--end sidebar-->
+      <div id="main"><!-- start main section-->
+        <div id="flex-item-5" class="main-item">
+          <div id="ability-container" class="container">
+            <h2>Ability Scores</h2>
+              <div id="strength" class="ability">
+                <h3>Strength</h3>
+                <p class="ability-mod">+0</p>
+                <p class="ability-score">10</p>
+                <p class="ability-save-no-prof">+0</p>
+              </div>  
+          </div>
+        </div><!-- end abilities-->
+        <div id="flex-item-6" class="main-item"><!--Actions section-->
+          <div id="actions-container" class="container">
+            <h2>Actions</h2>
+            <p>Actions list here.</p>
+              <div id="attacks" class="main-subsection">
+                <h3>Attacks</h3>
+                  <table id="attack-table">
+                    <tr>
+                      <th>name + range</th>
+                      <th>to hit</th>
+                      <th>damage</th>
+                    </tr>
+                  </table>
+              </div><!-- end attacks-->
+              <div id="magic" class="main-subsection">
+                <h3>Magic</h3>
+                  <div id="spell-stats" class="container">
+                    <div class="spell-stat"><h4>spell save</h4><span class="spell-stat-num">17</span></div>
+                    <div class="spell-stat"><h4><span class="spell-stat-num">spell modifier</h4>+5</div>
+                    <div class="spell-stat"><h4>spell attack</h4><span class="spell-stat-num">+9</span></div>
+                    <div class="spell-stat"><h4>con save</h4><span class="spell-stat-num">+4</span></div>
+                  </div>
+                  <h4>At Will</h4>
+                    <table id="at-will">
+                      <tr><!--hide this row-->
+                        <th>spell name</th>
+                        <th>action</th>
+                        <th>range</th>
+                        <th>hit/dc</th>
+                        <th>effect/damage</th>
+                        <th>VSM C</th>
+                      </tr>
+                    </table>
+                  <h4>per long rest</h4>
+                    <table id="per-lr">
+                      <tr><!--hide this row-->
+                        <th>spell name</th>
+                        <th>action</th>
+                        <th>range</th>
+                        <th>hit/dc</th>
+                        <th>effect/damage</th>
+                        <th>VSM C</th>
+                        <th>checkbox</th>
+                      </tr>
+                    </table>
+                  <h4>1st Level</h4>
+                  <p>checkbox checkbox</p>
+                    <table id="first-level">
+                      <tr><!--hide this row-->
+                        <th>spell name</th>
+                        <th>action</th>
+                        <th>range</th>
+                        <th>hit/dc</th>
+                        <th>effect/damage</th>
+                        <th>VSM C</th>
+                      </tr>
+                    </table>
+                  <h4>5th Level</h4>  
+                  <p>checkbox checkbox</p>
+                    <table id="fifth-level">
+                      <tr><!--hide this row-->
+                        <th>spell name</th>
+                        <th>action</th>
+                        <th>range</th>
+                        <th>hit/dc</th>
+                        <th>effect/damage</th>
+                        <th>VSM C</th>
+                      </tr>
+                    </table>
+              </div>
+            </div>
+        </div><!--end actions section-->
+        <div id="flex-item-7" class="main-item">
+          <div id="inventory-container" class="container">
+            <h2>Inventory</h2>
+              <div class="inventory-box">
+                <h3>Equipment</h3>
+              </div>
+              <div class="inventory-box">
+                <h3>Weapons</h3>
+              </div>
+              <div class="inventory-box">
+                <h3>Potions</h3>
+              </div>
+              <div class="inventory-box">
+                <h3>Scrolls</h3>
+              </div>
+              <div class="inventory-box">
+                <h3>Important</h3>
+              </div>
+              <div class="inventory-box">
+                <h3>Misc</h3>
+              </div>
+          </div>
+        </div>
+      
+      </div><!-- end main section-->
+    </div><!-- end subnav-->
+  </div><!--end page wrapper-->
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>

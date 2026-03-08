@@ -1,0 +1,113 @@
+body {
+    background-color: darkseagreen;
+    font-size: 15pt;
+}
+
+.container {
+    
+}
+
+.mini-title {
+    font-size: .5em;
+    margin: 1px;
+    text-transform: uppercase;
+}
+
+#hp {
+    font-size: 2em;
+    padding: 0px;
+}
+
+.init-ac{
+    font-size:1.5em;
+}
+/* NAV SECTION */
+#nav-wrapper {
+    border: 1px solid green;
+}
+
+#title {
+    background-color: lightgreen;
+    text-align:center;
+}
+
+#bubbles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.bubble-item {
+    background-color: lightblue;
+    border-radius: 50%;
+    text-align: center;
+    display:flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#initiative-bubble {
+    width: 100px;
+    height: 100px;
+}
+
+#hp-bubble-container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    width: 175px;
+    height: 175px;
+    border-radius:50%;
+}
+
+
+#temp-hp{
+    border: 2px dotted mediumvioletred;
+    width: 50px;
+    height: 50px;
+}
+
+#ac-bubble {
+    width:100px;
+    height: 100px;
+}
+
+#nav-links {
+    border: 1px solid red;
+}
+
+/* SUBNAV - everything below the nav bar */
+
+#subnav {
+    border: 1px solid orange;
+    padding-top: 2%;
+}
+
+/* sidebar - everything in sidebar */
+
+#sidebar {
+    border: 1px solid hotpink;
+}
+
+.sidebar-item{
+    border: 1px solid blue;
+}
+
+#basics {
+    border: 1px solid purple;
+}
+
+/* MAIN - everything in body not in sidebar */
+
+.main-item {
+    border: 1px solid yellow;
+}
+
+
+/* Appendix */
+.app-section {
+    border: 1px solid lightblue;
+}
